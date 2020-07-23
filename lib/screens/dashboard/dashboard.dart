@@ -1,8 +1,7 @@
-import 'package:aprendendo_provider/models/saldo.dart';
 import 'package:aprendendo_provider/screens/dashboard/saldo_card.dart';
-import 'package:aprendendo_provider/screens/depositos/formulario.dart';
+import 'package:aprendendo_provider/screens/depositos/formulario_deposito.dart';
+import 'package:aprendendo_provider/screens/transferencia/formulario_transferencia.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class Dashboard extends StatelessWidget {
   @override
@@ -28,7 +27,7 @@ class Dashboard extends StatelessWidget {
                   child: Text('Nova trasferência'),
                   color: Colors.green,
                   onPressed: () {
-                    //Navigator.push(context, MaterialPageRoute(builder: (context) => Formulario()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => FormularioTransferencia()));
                   },
                 ),
               ],
