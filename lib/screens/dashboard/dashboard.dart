@@ -1,6 +1,7 @@
 import 'package:aprendendo_provider/screens/dashboard/saldo_card.dart';
 import 'package:aprendendo_provider/screens/depositos/formulario_deposito.dart';
 import 'package:aprendendo_provider/screens/transferencia/formulario_transferencia.dart';
+import 'package:aprendendo_provider/screens/transferencia/ultimas_transferencias.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -32,6 +33,7 @@ class Dashboard extends StatelessWidget {
                 ),
               ],
             ),
+            UltimasTransferencias(),
         ],
       ),
     );

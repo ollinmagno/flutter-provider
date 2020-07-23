@@ -9,7 +9,7 @@ const _rotuloCampoValor = 'Valor';
 const _textoBotaoConfirmar = 'Confirmar';
 
 class FormularioDeposito extends StatelessWidget {
-  final TextEditingController _controladorCampoNumeroConta = TextEditingController();
+  //final TextEditingController _controladorCampoNumeroConta = TextEditingController();
   final TextEditingController _controladorCampoValor = TextEditingController();
 
   @override

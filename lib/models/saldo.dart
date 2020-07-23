@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
 class Saldo extends ChangeNotifier {
-  double _valor;
+  double valor;
 
-  Saldo(this._valor);
+  Saldo(this.valor);
 
   void adiciona(double valor){
-    this._valor += valor;
+    this.valor += valor;
 
     notifyListeners();
   }
   void subtrai(double valor){
-    this._valor -= valor;
+    this.valor -= valor;
 
     notifyListeners();
   }
 
   @override
   String toString(){
-    return 'R\S $_valor';
+    return 'R\S $valor';
   }
 }
